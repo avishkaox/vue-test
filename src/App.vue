@@ -11,5 +11,6 @@ const count = ref(0);
     <h1>{{count}}</h1>
     <button @click="count--" >-</button>
     <button @click="count++" >+</button>
+    <button @click="count++" >+</button>
   </div>
 </template>
